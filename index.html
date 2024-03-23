@@ -4,31 +4,31 @@
 <head>
   <meta charset="utf-8">
   <title>Main Page</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <section class="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="favFoods.html">Favorite Foods</a></li>
-    </ul>
-  </section>
+  <h1 class="title">Welcome to ITM 361 Project 1!</h1>
+  <div class="nav">
+    
+    <a class="nav-item-1 selected" href="index.html">Home</a>
+    <a class="nav-item-2" href="resume.html">Resume</a>
+    <a class="nav-item-3" href="favFoods.html">Favorite Foods</a>
+    
+  </div>
 
-  <section class="body">
-    <h1>Welcome to ITM 361 Project 1!</h1>
-    <p>This page is a placeholder that will explain a few things about me and help you navigate to the other two pages.</p>
-    <h2>Student</h2>
-    <p>As you might have guessed, I am a student at the Illinois Institute of Technology (iiT). More specifically I am a first year ITM student majoring in cybersecurity. </p>
-    <img src="media/tube.jpg" alt="aerial view of MTCC tube" width="1000">
-    <h2>Origins</h2>
+  <div class="body">
+    <p style="grid-area:1/1/2/4 ">This page is a placeholder that will explain a few things about me and help you navigate to the other two pages.</p>
+    <h2 style="grid-area: 2/1/3/4;">Student</h2>
+    <img style="grid-area: 3/1/4/4; " src="media/tube.jpg" alt="aerial view of MTCC tube" height="400">
+    <p style="grid-area:4/1/5/4;">As you might have guessed, I am a student at the Illinois Institute of Technology (iiT). More specifically I am a first-year ITM student majoring in cybersecurity. </p>
+    <h2 style="grid-area: 5/1/6/4;">Origins</h2>
     <p>Today I live on campus but I am originally from Texas. It was quite the change, to say the least.</p>
-    <img src="media/texas.jpg" alt="Texas flag flying in front of downtown Austin, Texas">
+    <img width="350" style="grid-area: 6/2/7/4;" src="media/texas.jpg" alt=" Texas flag flying in front of downtown Austin, Texas">
     <p>My favorite thing about living in the Lone Star State has to be the food. Nothing can beat Texas barbecue. </p>
-    <img src="media/texasBarbecue.jpg" alt="A plate of Texas barbecue with brisket, mac and cheese, and ribs." width="600">
-  </section>
+    <img style="padding:10px; grid-area: 7/2/8/4;" width="450px" src="media/texasBarbecue.jpg" alt="A plate of Texas barbecue with brisket, mac and cheese, and ribs." >
+  </div>
 </body>
 
 </html>
