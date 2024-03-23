@@ -9,38 +9,39 @@
 </head>
 
 <body>
-  <sections class="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="favFoods.html">Favorite Foods</a></li>
-      <li><a href="resume.html">Resume</a></li>
-    </ul>
-  </sections>
   
-  <section class="body">
-    <h1>Philip Trojanowski's Resume</h1>
-    <h2>Contact Information</h2>
+  <h1 class="title">Philip Trojanowski's Resume</h1>
+  
+  <div class="nav">
+    <a class="nav-item-1" href="index.html">Home</a>
+    <a class="nav-item-2 selected" href="resume.html">Resume</a>
+    <a class="nav-item-3" href="favFoods.html">Favorite Foods</a>
+  </div>
+  
+  <div class="body">
+    
+    <h2 style="grid-area: 1/1/2/4;">Contact Information</h2>
     <p>Philip Trojanowski III</p>
     <p>3201 S State St, Chicago, Il, 60616</p>
     <p>trojanowski@hawk.iit.edu</p>
-    <h2>Education</h2>
+    <h2 style="grid-area: 3/1/4/4;">Education</h2>
     <p> Salisbury School, GED, Salisbury CT, Graduated 2024</p>
     <p> Illinois Institute of Technology, Bachelor's, Chicago Il, expected graduation: 2028 </p>
-    <h2>Skills</h2>
-    <ul>
+    <h2 style="grid-area: 5/1/6/4;">Skills</h2>
+    <ul style="grid-area: 6/2/7/3; text-align: start;">
       <li>Basic HTML and CSS</li>
       <li>Linux</li>
       <li>Java</li>
       <li>JavaScript</li>
       <li>Teamwork</li>
     </ul>
-    <h2>Experience</h2>
-    <p>Created a rudimentary website using HTML, CSS, and JavaScript</p>
-    <p>Competed with the Salisbury School robotics team</p>
-    <h2>Extracuricular Activities</h2>
-    <p>Player on the IIT Baseball team</p>
-    <p>Volunteering at food distrubution centers</p>
-  </section>
+    <h2 style="grid-area: 7/1/8/4;">Experience</h2>
+    <p style="grid-area: 8/1/9/2;">Created a rudimentary website using HTML, CSS, and JavaScript</p>
+    <p style="grid-area: 8/2/9/4;">Competed with the Salisbury School robotics team</p>
+    <h2 style="grid-area: 10/1/11/4;">Extracuricular Activities</h2>
+    <p style="grid-area: 11/1/12/2;">Player on the IIT Baseball team</p>
+    <p style="grid-area: 11/2/12/4;">Volunteering at food distrubution centers</p>
+  </div>
 </body>
 
 </html>
